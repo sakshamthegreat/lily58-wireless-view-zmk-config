@@ -85,11 +85,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans     &trans    &trans        &trans     &trans   &kp HOME                         &trans       &trans     &trans        &trans    &trans     &trans
-&kp GRAVE  &kp N1    &kp UP_ARROW  &kp N3     &kp N4   &kp PAGE_UP                      &kp N6       &kp N7     &kp UP_ARROW  &kp N9    &kp N0     &trans
-&kp F1     &kp LEFT  &kp DOWN      &kp RIGHT  &kp F5   &kp PAGE_DOWN                    &trans       &kp LEFT   &kp DOWN      &kp UP    &kp RIGHT  &kp ENTER
-&kp F7     &kp F8    &kp F9        &kp F10    &kp F11  &kp F12        &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT  &kp RBKT   &kp BSLH
-                                   &trans     &trans   &trans         &trans    &trans  &trans       &trans     &trans
+&trans     &trans    &trans        &trans        &trans     &kp HOME                         &trans       &trans     &trans        &trans    &trans     &trans
+&kp GRAVE  &kp N1    &kp NUMBER_2  &kp UP_ARROW  &kp N4     &kp PAGE_UP                      &kp N6       &kp N7     &kp UP_ARROW  &kp N9    &kp N0     &trans
+&kp F1     &kp LEFT  &kp LEFT      &kp DOWN      &kp RIGHT  &kp PAGE_DOWN                    &trans       &kp LEFT   &kp DOWN      &kp UP    &kp RIGHT  &kp ENTER
+&kp F7     &kp F8    &kp F9        &kp F10       &kp F11    &kp F12        &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT  &kp RBKT   &kp BSLH
+                                   &trans        &trans     &trans         &trans    &trans  &trans       &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
